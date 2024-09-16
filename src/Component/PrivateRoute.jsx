@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Navigate, Route } from "react-router-dom";
-import { isAuthenticated } from "../../authutils";
+import { isAuthenticated } from "../../authUtils.js";
 
 const PrivateRoute = ({ element: Component, ...rest }) => {
   return (
