@@ -1,5 +1,5 @@
 import { Navigate } from "react-router-dom";
-import { isAuthenticated } from "../../authutils.js";
+import { isAuthenticated } from "../../authUtils";
 import Box from "./Box";
 import UserList from "./UserList";
 
